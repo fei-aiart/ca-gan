@@ -1,8 +1,10 @@
 # CA-GAN
 
+------
+
 [[Project Page\]](https://github.com/fei-hdu/ca-gan/) [[Paper\]](https://arxiv.org/abs/1712.00899) 
 
-Pytorch implementation for composition-aided face sketch-photo synthesis.
+Results of composition-aided face sketch-photo synthesis.
 
 > **Composition-Aided Face Photo-Sketch Synthesis.**
 >
@@ -10,7 +12,9 @@ Pytorch implementation for composition-aided face sketch-photo synthesis.
 
 ### Results
 
-We list a number of results of composition-aided GAN (CA-GAN) and stacked CA-GAN (SCA-GAN) on the CUHK, CUFSF, and VIPSL-FS databases.  
+**The full results are available at [BaiduCloud]（https://pan.baidu.com/s/1PnzNYdwl6Cd2V5gg00ehQQ）**, password: `rhd1`
+
+Due to space limitation, we only list a small number of results here.  The folders are:
 
 - `Photo2Sketch`: Synthesize a sketch image from a photo.
 - `Sketch2Photo`: Synthesize a photo image from a sketch.
@@ -29,21 +33,15 @@ We list a number of results of composition-aided GAN (CA-GAN) and stacked CA-GAN
   - 4: Synthesized sketch/photo by CA-GAN
   - 5: Synthesized sketch/photo by SCA-GAN
 
-- **The full results are available at [BaiduCloud][https://pan.baidu.com/s/1PnzNYdwl6Cd2V5gg00ehQQ]**, password: `rhd1`
-
   ​
 
 ###Example results
 
-1) Synthesized sketches of Chinese celebrities. (a) Photo, (b) cGAN, (c) CA-GAN, (d) SCA-GAN.
+
 
 [![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)
 
-2) Examples of high-resolution synthesized face sketches on the VIPSL-FS database. (a) Photo, (b) cGAN, (c) CA-GAN, (d) SCA-GAN, and (e) Sketch drawn by artist.
-
 [![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)
-
-3) Examples of synthesized high-resolution face photos on the VIPSL-FS database. (a) Sketch drawn by artist, (b) cGAN, (c) CA-GAN, (d) SCA-GAN, and (e) ground truth photo.
 
 [![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_photo_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_photo_vipsl.jpg)
 
@@ -55,9 +53,9 @@ We list a number of results of composition-aided GAN (CA-GAN) and stacked CA-GAN
 
 ### Datasets
 
-- CUHK
-- CUFSF
-- VIPSL-FS
+- [CUHK](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html)
+- [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/index.html)
+- [VIPSL-FS](http://www.ihitworld.com/)
 
 ### Citation
 
@@ -76,7 +74,4 @@ If you find this useful for your research, please use the following.
 
 This code borrows heavily from the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository.
 
-The results of exisiting methods (except cGAN) are provided by Nannan Wang and Chunlei Peng. 
-
-- Wang et al. at: http://www.ihitworld.com/RSLCR.html.
-- Peng: http://chunleipeng.com/TNNLS2015_MrFSPS.html.
+This work is greatly supported by [Nannan Wang](http://www.ihitworld.com/) and [Chunlei Peng](http://chunleipeng.com/). [ (HIT@Xidian University)](http://www.ihitworld.com/)
