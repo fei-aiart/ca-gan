@@ -10,7 +10,7 @@ Pytorch implementation for composition-aided face sketch-photo synthesis.
 
 ### Results
 
-We list a number of results of composition-aided GAN (CA-GAN) and stacked CA-GAN (SCA-GAN) on the CUHK, CUFSF, and VIPSL-FS databases.  Specially, 
+We list a number of results of composition-aided GAN (CA-GAN) and stacked CA-GAN (SCA-GAN) on the CUHK, CUFSF, and VIPSL-FS databases.  
 
 - `Photo2Sketch`: Synthesize a sketch image from a photo.
 - `Sketch2Photo`: Synthesize a photo image from a sketch.
@@ -32,13 +32,13 @@ We list a number of results of composition-aided GAN (CA-GAN) and stacked CA-GAN
 
 ###Example results
 
+![https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)
 
+[![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)
 
-[![img](https://github.com/fei-hdu/ca-gan/Examples/fig_celeb_sketch.jpg)](https://github.com/junyanz/BicycleGAN/blob/master/imgs/teaser.jpg)
+[![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)
 
-[![img](https://github.com/fei-hdu/ca-gan/Examples/fig_sketch_vipsl.jpg)](https://github.com/junyanz/BicycleGAN/blob/master/imgs/teaser.jpg)
-
-[![img](https://github.com/fei-hdu/ca-gan/Examples/fig_photo_vipsl.jpg)](https://github.com/junyanz/BicycleGAN/blob/master/imgs/teaser.jpg)
+[![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_photo_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_photo_vipsl.jpg)
 
 
 
