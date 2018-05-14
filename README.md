@@ -2,7 +2,7 @@
 
 ------
 
-[[Project Page\]](https://github.com/fei-hdu/ca-gan/) [[Paper\]](https://arxiv.org/abs/1712.00899) 
+[[Project\]](https://github.com/fei-hdu/ca-gan/) [\[Project Page\]](https://fei-hdu.github.io/ca-gan/)[[Paper\]](https://arxiv.org/abs/1712.00899) 
 
 Results of composition-aided face sketch-photo synthesis.
 
