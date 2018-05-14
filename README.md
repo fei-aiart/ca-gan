@@ -35,11 +35,11 @@ Due to space limitation, we only list a small number of results here.  The folde
 
   ​
 
-###Example results
+### Example results
 
 
 
-[![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg)
+[![img](Examples/fig_celeb_sketch.jpg)](Examples/fig_celeb_sketch.jpg)
 
 [![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)
 
