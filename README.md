@@ -12,7 +12,7 @@ Results of composition-aided face sketch-photo synthesis.
 
 ### Results
 
-**The full results are available at [BaiduCloud]（https://pan.baidu.com/s/1PnzNYdwl6Cd2V5gg00ehQQ）**, password: `rhd1`
+**The full results are available at [BaiduCloud](https://pan.baidu.com/s/1PnzNYdwl6Cd2V5gg00ehQQ)**, password: `rhd1`
 
 Due to space limitation, we only list a small number of results here.  The folders are:
 
@@ -33,17 +33,13 @@ Due to space limitation, we only list a small number of results here.  The folde
   - 4: Synthesized sketch/photo by CA-GAN
   - 5: Synthesized sketch/photo by SCA-GAN
 
-  ​
-
 ### Example results
-
-
 
 [![img](Examples/fig_celeb_sketch.jpg)](Examples/fig_celeb_sketch.jpg)
 
-[![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_sketch_vipsl.jpg)
+[![img](Examples/fig_sketch_vipsl.jpg)](Examples/fig_sketch_vipsl.jpg)
 
-[![img](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_photo_vipsl.jpg)](https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_photo_vipsl.jpg)
+[![img](Examples/fig_photo_vipsl.jpg)](Examples/fig_photo_vipsl.jpg)
 
 
 
