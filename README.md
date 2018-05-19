@@ -8,7 +8,7 @@ Results of composition-aided face sketch-photo synthesis.
 
 > **Composition-Aided Face Photo-Sketch Synthesis.**
 >
-> Fei Gao, Shengjie Shi, Jun Yu,  Dacheng Tao, and Qingming Huang
+> Jun Yu,  Shengjie Shi, Fei Gao, Dacheng Tao, and Qingming Huang
 
 ### Results
 
@@ -37,19 +37,19 @@ Due to space limitation, we only list a small number of results here.  The folde
 
 [![img](Examples/fig_celeb_sketch.jpg)](Examples/fig_celeb_sketch.jpg)
 
-(a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
+> (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
 
 
 
 [![img](Examples/fig_sketch_vipsl.jpg)](Examples/fig_sketch_vipsl.jpg)
 
-(a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
+>  (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
 
 
 
 [![img](Examples/fig_photo_vipsl.jpg)](Examples/fig_photo_vipsl.jpg)
 
-(a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
+> (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
 
 
 
@@ -70,7 +70,7 @@ If you find this useful for your research, please use the following.
 ```
 @article{gao2017ca-gan,
 	title = {Composition-Aided Face Photo-Sketch Synthesis},
-	author = {Fei Gao, Shengjie Shi, Jun Yu,  Dacheng Tao, and Qingming Huang},
+	author = {Jun Yu,  Shengjie Shi, Fei Gao, Dacheng Tao, and Qingming Huang},
 	booktitle = {arXiv:1712.00899},
 	year = {2017},
 }
