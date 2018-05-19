@@ -37,9 +37,19 @@ Due to space limitation, we only list a small number of results here.  The folde
 
 [![img](Examples/fig_celeb_sketch.jpg)](Examples/fig_celeb_sketch.jpg)
 
+(a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
+
+
+
 [![img](Examples/fig_sketch_vipsl.jpg)](Examples/fig_sketch_vipsl.jpg)
 
+(a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
+
+
+
 [![img](Examples/fig_photo_vipsl.jpg)](Examples/fig_photo_vipsl.jpg)
+
+(a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
 
 
 
