@@ -12,7 +12,7 @@ Results of composition-aided face sketch-photo synthesis.
 
 ### Results
 
-**The full results are available at [BaiduCloud](https://pan.baidu.com/s/1PnzNYdwl6Cd2V5gg00ehQQ)**, password: `rhd1`
+**The full results are available at [Baidu Drive](https://pan.baidu.com/s/1PnzNYdwl6Cd2V5gg00ehQQ)**, password: `rhd1`
 
 Due to space limitation, we only list a small number of results here.  The folders are:
 
