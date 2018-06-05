@@ -2,13 +2,16 @@
 
 ------
 
-[[Project\]](https://github.com/fei-hdu/ca-gan/) [\[Project Page\]](https://fei-hdu.github.io/ca-gan/)[[Paper\]](https://arxiv.org/abs/1712.00899) 
+- [[Project@Github]](https://github.com/fei-hdu/ca-gan/) 
+- [[Project Page]](https://fei-hdu.github.io/ca-gan/)
+- [[Paper.v1@arxiv\]](https://arxiv.org/abs/1712.00899)
+- [[Paper.v2]](ca-gan.pdf)
 
 Results of composition-aided face sketch-photo synthesis.
 
 > **Composition-Aided Face Photo-Sketch Synthesis.**
 >
-> Jun Yu,  Shengjie Shi, Fei Gao, Dacheng Tao, and Qingming Huang
+> Jun Yu,  Shengjie Shi, Fei Gao*, Dacheng Tao, and Qingming Huang
 
 ### Results
 
