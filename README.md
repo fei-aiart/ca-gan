@@ -74,7 +74,7 @@ If you find this useful for your research, please use the following.
 ```
 @article{gao2017ca-gan,
 	title = {Composition-Aided Face Photo-Sketch Synthesis},
-	author = {Jun Yu,  Shengjie Shi, Fei Gao, Dacheng Tao, and Qingming Huang},
+	author = {Yu, Jun and Shi, Shengjie and Gao, Fei and Tao, Dacheng and Huang, Qingming},
 	booktitle = {arXiv:1712.00899},
 	year = {2017},
 }
