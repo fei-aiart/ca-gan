@@ -45,17 +45,6 @@ Due to space limitation, we only list a small number of results here.  The folde
 
 
 
-[![img](Examples/fig_sketch_vipsl.jpg)](Examples/fig_sketch_vipsl.jpg)
-
->  (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
-
-
-
-[![img](Examples/fig_photo_vipsl.jpg)](Examples/fig_photo_vipsl.jpg)
-
-> (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN (e) ground-truth
-
-
 
 ### Codes
 
@@ -65,7 +54,6 @@ Due to space limitation, we only list a small number of results here.  The folde
 
 - [CUHK](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html)
 - [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/index.html)
-- [VIPSL-FS](http://www.ihitworld.com/)
 
 ### Citation
 
