@@ -4,7 +4,7 @@
 
 - [[Project@Github]](https://github.com/fei-hdu/ca-gan/) 
 - [[Project Page]](https://fei-hdu.github.io/ca-gan/)
-- [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899)
+- [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899v3)
 
 Results of composition-aided face sketch-photo synthesis.
 
@@ -28,13 +28,13 @@ Results of composition-aided face sketch-photo synthesis.
 
 ### Example results
 
-<img src="https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_photo.jpg" width = "400" div align=center/>
+<img src="Examples/fig_celeb_photo.jpg" width = "400" div align=center/>
 
 > (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
 
 
 
-<img src="https://github.com/fei-hdu/ca-gan/blob/master/Examples/fig_celeb_sketch.jpg" width = "400" div align=center/>
+<img src="Examples/fig_celeb_sketch.jpg" width = "400" div align=center/>
 
 > (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
 
