@@ -28,7 +28,7 @@ Results of composition-aided face sketch-photo synthesis.
 
 ### Example results
 
-<img src="Examples/fig_celeb_sketch.jpg" width = "50" height = "50" div align=right />
+<img src="Examples/fig_celeb_sketch.jpg" width = "400" div align=center/>
 
 > (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
 
