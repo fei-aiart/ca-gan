@@ -34,7 +34,7 @@ Results of composition-aided face sketch-photo synthesis.
 
 
 
-[![img](Examples/fig_celeb_photo.jpg)](Examples/fig_celeb_sketch.jpg)
+<img src="Examples/fig_celeb_photo.jpg" width = "400" div align=center/>
 
 > (a) Input image, (b) cGAN (c)  CA-GAN, (d) SCA-GAN
 
