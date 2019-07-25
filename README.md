@@ -20,11 +20,11 @@ Results of composition-aided face sketch-photo synthesis.
 >
 > To tackle this challenge, in this work, we propose to use the facial composition information to help the synthesis of face sketch/photo. Specially, we propose a novel composition-aided generative adversarial network (CA-GAN) for face photo-sketch synthesis. In CA-GAN, we utilize paired inputs including a face photo/sketch and the corresponding pixel-wise face labels for generating a sketch/photo. Next, to focus training on hard-generated components and delicate facial structures, we propose a compositional reconstruction loss. In addition, we employ a perceptual loss function to encourage the synthesized image and real image to be perceptually similar. Finally, we use stacked CA-GANs (SCA-GAN) to further rectify defects and add compelling details. 
 >
-> Experimental results show that our method is capable of generating both visually comfortable and identity-preserving face sketches/photos over a wide range of challenging data. In addition, our method significantly decrease the best previous Fr\'{e}chet Inception distance (FID) from 36.2 to 26.2 for sketch synthesis, and from 60.9 to 30.5 for photo synthesis. Besides, we demonstrate that the proposed method is of considerable generalization ability. We have made our code and results publicly available: \url{https://fei-hdu.github.io/ca-gan/}.
+> Experimental results show that our method is capable of generating both visually comfortable and identity-preserving face sketches/photos over a wide range of challenging data. In addition, our method significantly decrease the best previous Fr\'{e}chet Inception distance (FID) from 36.2 to 26.2 for sketch synthesis, and from 60.9 to 30.5 for photo synthesis. Besides, we demonstrate that the proposed method is of considerable generalization ability. We have made our code and results publicly available: https://fei-hdu.github.io/ca-gan/.
 
 ### Code and Results
 
-- Compressed files: `code_cagan` and `results_cagan`
+- Compressed files: [`code_cagan`](code_cagan.zip) and [`results_cagan`](results_cagan.zip)
 
 ### Example results
 
@@ -49,7 +49,7 @@ If you find this useful for your research, please use the following.
 	title = {Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs},
 	author = {Jun Yu,  Fei Gao, Shengjie Shi, Xingxin Xu, Meng Wang, Dacheng Tao, and Qingming Huang},
 	booktitle = {arXiv:1712.00899},
-	year = {2017},
+	year = {2019},
 }
 ```
 
