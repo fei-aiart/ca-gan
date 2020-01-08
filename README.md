@@ -1,12 +1,14 @@
 # CA-GAN
 
-We provide PyTorch implementation for our paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
+We provide $\texttt{PyTorch}$ implementation for $\texttt{CA-GAN}$ and $\texttt{SCA-GAN}$.
 
-| [[Project@Github]](https://github.com/fei-hdu/ca-gan/) | [[Project Page]](https://fei-hdu.github.io/ca-gan/) | [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899) |
+Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
+
+| [[Project@Github]](https://github.com/fei-hdu/ca-gan/) | [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899) | [[Project Page]](https://fei-hdu.github.io/ca-gan/) |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |                                          |                                          |                                          |
 
-### Our Proposed Generator
+### Generator Architecture
 
 ![](imgs/architecture1.png)
 
@@ -48,12 +50,10 @@ We provide PyTorch implementation for our paper "Towards Realistic Face Photo-Sk
 
 ### ca-gan train/test
 - Download a dataset([CUFS](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) split train and test with this [files]())
-- Download the [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) model which based on the VGG-Very-Deep-16 CNN architecture.
-   Here we convert torch weight to pyTorch to fit our frame, you can download our converted model directly.
-    - [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
+- Download the [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) model. Here we convert torch weight to pyTorch to fit our frame, you can download our converted model directly: [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
 - Get face parsing
     - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing (v1.5, replacing P-Net by [MaskGAN](https://github.com/switchablenorms/CelebAMask-HQ))
-    - Check out the [branch](https://github.com/jehovahxu/ca-gan) to get the our previous used (v1.0, the reults shown in the paper)
+    - Check out the [main branch](https://github.com/jehovahxu/ca-gan) to get the previous P-Net  (v1.0, the reults shown in the paper)
 - Train a model
     ```shell script
     python main.py --model_vgg {model path}
@@ -64,8 +64,7 @@ We provide PyTorch implementation for our paper "Towards Realistic Face Photo-Sk
     ```
     - The option `fold` is used for load `./checkpoint/netG_epoch_'+fold+'.weight` and you can edit it in `test.py` 
 ### Apply a pre-trained model
-- You can download a pre-trained model which trained on the CUSF and can transform photo to sketch  :
-    - [Google Drive](https://drive.google.com/open?id=17KG1e0-cq_dmidQovzG9vOWZSq3of0Lx)
+- A face $photo \mapsto sketch$  model  pre-trained on the CUSF: [Google Drive](https://drive.google.com/open?id=17KG1e0-cq_dmidQovzG9vOWZSq3of0Lx)
 - The pre-trained model need to be save at `./checkpoint` and named it as `netG_epoch_'+fold+'.weight`
 - Then you can test the model
 
@@ -74,20 +73,17 @@ We provide PyTorch implementation for our paper "Towards Realistic Face Photo-Sk
 - [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)
 
 ### Result
-- Our final result with new parsing can be downloaded:
-    - [Google Drive](https://drive.google.com/open?id=1cie6l-IuxSm-ste2bIi6L7Y_leWNpotB)
+- Our final result with new parsing can be downloaded: [Google Drive](https://drive.google.com/open?id=1cie6l-IuxSm-ste2bIi6L7Y_leWNpotB)
 
 
 ### Training/Test Tips
 
 Best practice for training and testing your models.<p>
-Feel free to ask any questions.Xingxin Xu, [jehovahxu@gmail.com](jehovahxu@gmail.com)<p>
-
-
+Feel free to ask any questions about coding. **Xingxin Xu, [jehovahxu@gmail.com](jehovahxu@gmail.com)**<p>
 
 ## Citation
 
-If you find this useful for your research, please use the following.
+If you find this useful for your research, please cite our paper as:
 
 ```
 @article{gao2020ca-gan,
@@ -97,8 +93,6 @@ If you find this useful for your research, please use the following.
 	year = {2020},
 }
 ```
-
-
 
 ###Acknowledgments
 
