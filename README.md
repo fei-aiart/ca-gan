@@ -1,11 +1,10 @@
 # CA-GAN
 
-We provide $\texttt{PyTorch}$ implementation for $\texttt{CA-GAN}$ and $\texttt{SCA-GAN}$.
+We provide **PyTorch** implementation for CA-GAN and SCA-GAN.
 
 Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 
 | [[Project@Github]](https://github.com/fei-hdu/ca-gan/) | [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899) | [[Project Page]](https://fei-hdu.github.io/ca-gan/) |
-| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 
 ### Generator Architecture
 
@@ -39,8 +38,6 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
     git clone https://github.com/jehovahxu/ca-gan
     cd ca-gan
     ```
-
-    ​
 
 - Install PyTorch 0.4+ and torchvision from http://pytorch.org and other dependencies (e.g., visdom and dominate). You can install all the dependencies by
 
@@ -79,7 +76,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 
 ### Training/Test Tips
 Best practice for training and testing your models.
-Feel free to ask any questions about coding. **Xingxin Xu, [jehovahxu@gmail.com](jehovahxu@gmail.com)**
+Feel free to ask any questions about ***coding***. **Xingxin Xu, [jehovahxu@gmail.com](jehovahxu@gmail.com)**
 
 ## Citation
 If you find this useful for your research, please cite our paper as:
