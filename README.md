@@ -94,7 +94,7 @@ If you find this useful for your research, please cite our paper as:
 }
 ```
 
-###Acknowledgments
+### Acknowledgments
 
 - Our code is inspired by the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository.
 - This work is greatly supported by [Nannan Wang](http://www.ihitworld.com/) and [Chunlei Peng](http://chunleipeng.com/). [ (HIT@Xidian University)](http://www.ihitworld.com/)
