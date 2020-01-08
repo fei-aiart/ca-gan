@@ -6,7 +6,6 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 
 | [[Project@Github]](https://github.com/fei-hdu/ca-gan/) | [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899) | [[Project Page]](https://fei-hdu.github.io/ca-gan/) |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-|                                          |                                          |                                          |
 
 ### Generator Architecture
 
@@ -33,6 +32,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
     git clone https://github.com/fei-hdu/ca-gan
     cd ca-gan
     ```
+
     or (**Xingxin Xu**)
 
     ```shell script
@@ -63,6 +63,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
     python test.py --dataroot {data path} --fold {epoch number}
     ```
     - The option `fold` is used for load `./checkpoint/netG_epoch_'+fold+'.weight` and you can edit it in `test.py` 
+
 ### Apply a pre-trained model
 - A face $photo \mapsto sketch$  model  pre-trained on the CUSF: [Google Drive](https://drive.google.com/open?id=17KG1e0-cq_dmidQovzG9vOWZSq3of0Lx)
 - The pre-trained model need to be save at `./checkpoint` and named it as `netG_epoch_'+fold+'.weight`
@@ -77,14 +78,11 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 
 
 ### Training/Test Tips
-
-Best practice for training and testing your models.<p>
-Feel free to ask any questions about coding. **Xingxin Xu, [jehovahxu@gmail.com](jehovahxu@gmail.com)**<p>
+Best practice for training and testing your models.
+Feel free to ask any questions about coding. **Xingxin Xu, [jehovahxu@gmail.com](jehovahxu@gmail.com)**
 
 ## Citation
-
 If you find this useful for your research, please cite our paper as:
-
 ```
 @article{gao2020ca-gan,
 	title = {Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs},
@@ -95,7 +93,6 @@ If you find this useful for your research, please cite our paper as:
 ```
 
 ### Acknowledgments
-
 - Our code is inspired by the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository.
 - This work is greatly supported by [Nannan Wang](http://www.ihitworld.com/) and [Chunlei Peng](http://chunleipeng.com/). [ (HIT@Xidian University)](http://www.ihitworld.com/)
 
