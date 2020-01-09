@@ -32,12 +32,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
     cd ca-gan
     ```
 
-    or (**Xingxin Xu**)
-
-    ```shell script
-    git clone https://github.com/jehovahxu/ca-gan
-    cd ca-gan
-    ```
+    ​
 
 - Install PyTorch 0.4+ and torchvision from http://pytorch.org and other dependencies (e.g., visdom and dominate). You can install all the dependencies by
 
@@ -49,8 +44,8 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 - Download a dataset([CUFS](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) split train and test with this [files]())
 - Download the [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) model. Here we convert torch weight to pyTorch to fit our frame, you can download our converted model directly: [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
 - Get face parsing
-    - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing (v1.5, replacing P-Net by [MaskGAN](https://github.com/switchablenorms/CelebAMask-HQ))
-    - Check out the [main branch](https://github.com/jehovahxu/ca-gan) to get the previous P-Net  (v1.0, the reults shown in the paper)
+    - here we use [Face Labling](https://github.com/Liusifei/Face_Parsing_2016) to get face parsing
+    - Check out the [new parsing branch](https://github.com/jehovahxu/ca-gan/tree/new_parsing) to get the our newly used 
 - Train a model
     ```shell script
     python main.py --model_vgg {model path}
@@ -71,7 +66,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 - [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)
 
 ### Result
-- Our final result with new parsing can be downloaded: [Google Drive](https://drive.google.com/open?id=1cie6l-IuxSm-ste2bIi6L7Y_leWNpotB)
+- Our final result with new parsing can be downloaded: [Google Drive](https://drive.google.com/open?id=1EHpQWzbbF3-BSd93rCclpYtbpbEOZ3p3)
 
 
 ### Training/Test Tips
