@@ -42,8 +42,12 @@ def target_transform(if_train, opt):
 
 def load_inputs(imgpath, matpath, opt, if_train):
     # load photos and paraing
+    tmp = imgpath.split("/")
     imgpath = os.path.join(opt.root, imgpath)
+    # print imgpath
+    matpath =  tmp[0] + "/"+ tmp[1] + "_mat" + "/" + tmp[2][:-4] + ".mat"
     matpath = os.path.join(opt.root, matpath)
+    # print matpath
     img = cv2.imread(imgpath)
 
     # img = img.astype(np.float32)
@@ -114,20 +118,20 @@ def mat_process(img_fl):
 
     l1 = temp[1, :, :]
 
-    l2 = temp[2, :, :] + temp[3, :, :]
+    l2 = temp[7, :, :] + temp[6, :, :]
     l2 = np.where(l2 > 1, 1, l2)
 
-    l3 = temp[4, :, :] + temp[5, :, :]
+    l3 = temp[5, :, :] + temp[4, :, :]
     l3 = np.where(l3 > 1, 1, l3)
 
-    l4 = temp[6, :, :]
+    l4 = temp[2, :, :]
 
-    l5 = temp[7, :, :] + temp[9, :, :]
+    l5 = temp[11, :, :] + temp[12, :, :]
     l5 = np.where(l5 > 1, 1, l5)
 
-    l6 = temp[8, :, :]
+    l6 = temp[10, :, :]
 
-    l7 = temp[10, :, :]
+    l7 = temp[13, :, :]
 
     # merge
     img = np.concatenate((img, l0.reshape(1, l0.shape[0], l0.shape[1])), axis=0)
