@@ -79,8 +79,10 @@ If you find this useful for your research, please cite our paper as:
 @article{gao2020ca-gan,
 	title = {Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs},
 	author = {Jun Yu, Xingxin Xu, Fei Gao, Shengjie Shi, Meng Wang, Dacheng Tao, and Qingming Huang},
-	booktitle = {arXiv:1712.00899},
+	booktitle = {IEEE Transactions on Cybernatics},
+        doi = {10.1109/TCYB.2020.2972944},
 	year = {2020},
+	url = {https://github.com/fei-hdu},
 }
 ```
 
