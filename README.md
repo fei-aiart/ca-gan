@@ -82,7 +82,7 @@ If you find this useful for your research, please cite our paper as:
 	booktitle = {IEEE Transactions on Cybernatics},
         doi = {10.1109/TCYB.2020.2972944},
 	year = {2020},
-	url = {arXiv:1712.00899},
+	url = {https://github.com/fei-hdu},
 }
 ```
 
