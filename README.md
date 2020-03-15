@@ -4,7 +4,7 @@ We provide **PyTorch** implementation for CA-GAN and SCA-GAN.
 
 Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 
-| [[Project@Github]](https://github.com/fei-hdu/ca-gan/) | [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899) | [[Project Page]](https://fei-hdu.github.io/ca-gan/) |
+[[Paper@IEEE]](https://ieeexplore.ieee.org/document/9025751)  [[Project@Github]](https://github.com/fei-hdu/ca-gan/)  [[Paper@arxiv\]](https://arxiv.org/abs/1712.00899)  [[Project Page]](https://fei-hdu.github.io/ca-gan/) 
 
 ### Generator Architecture
 
