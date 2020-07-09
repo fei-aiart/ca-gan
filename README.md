@@ -44,7 +44,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 - Download a dataset([CUFS](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) split train and test with this [files]())
 - Download the [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) model. Here we convert torch weight to pyTorch to fit our frame, you can download our converted model directly: [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
 - Get face parsing
-    - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing(v1.5, replacing P-Net by [MaskGAN](https://github.com/switchablenorms/CelebAMask-HQ))
+    - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing (v1.5, replacing P-Net by [BiseNet](https://github.com/CoinCheung/BiSeNet) learned from the [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ))
     - Check out the [master branch](https://github.com/fei-hdu/ca-gan) to get the our previous P-Net(v1.0,)
 - Train a model
     ```shell script
