@@ -60,9 +60,10 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
     ```
     - The option `fold` is used for load `./checkpoint/netG_epoch_'+fold+'.weight` and you can edit it in `test.py` 
 
-### Apply a pre-trained model
+### Pre-trained models
 - A face $photo \mapsto sketch$  model  pre-trained on the CUSF: 
-  - CA-GAN： [[Google Drive]](https://drive.google.com/drive/folders/1IY7tV-tyKFcB7t0j1l-ZBSfFhtYIrJbB?usp=sharing)  [[Baidu Cloud]](https://pan.baidu.com/s/1jtEXeyRGEVvSaq0KyeT_UA)(提取码：tu9l)
+  - CA-GAN： [[Google Drive]](https://drive.google.com/drive/folders/1IY7tV-tyKFcB7t0j1l-ZBSfFhtYIrJbB?usp=sharing)  [[Baidu Cloud]](https://pan.baidu.com/s/1jtEXeyRGEVvSaq0KyeT_UA)(pwd：tu9l)
+  - SCA-GAN (code & model): [[Google Drive]](https://drive.google.com/file/d/1rDIDrt8eQrj2qxzPtIJzV1bQM6oLNKEJ/view?usp=sharing) [[BaiDu Cloud]](https://pan.baidu.com/s/1bZabOZUwunfmuS8hHpPHhw) (pwd: 6dxk)
 - The pre-trained model need to be save at `./checkpoint` and named it as `netG_epoch_'+fold+'.weight`
 - Then you can test the model
 
