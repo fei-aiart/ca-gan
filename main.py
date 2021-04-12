@@ -45,9 +45,9 @@ def train(print_every=10):
     netG = MyUnetGenerator(opt.input_nc, opt.output_nc, 8, opt.ngf, norm_layer=norm_layer,   use_dropout=False, gpu_ids=opt.gpu_ids)
     netE = MyEncoder(opt.input_nc, opt.output_nc, 8, opt.ngf, norm_layer=norm_layer,use_dropout=False, gpu_ids=opt.gpu_ids)
 
-    netVGG = Vgg16()
+    # netVGG = Vgg16()
     # utils.init_vgg16(opt.model_dir)
-    netVGG.load_state_dict(torch.load(os.path.join(opt.model_dir, "vgg16.weight")))
+    # netVGG.load_state_dict(torch.load(os.path.join(opt.model_dir, "vgg16.weight")))
 
     VGG = make_encoder(model_file=opt.model_vgg)
 
