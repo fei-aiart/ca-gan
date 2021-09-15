@@ -64,6 +64,7 @@ Paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 - A face $photo \mapsto sketch$  model  pre-trained on the CUSF: 
   - CA-GAN： [[Google Drive]](https://drive.google.com/drive/folders/1IY7tV-tyKFcB7t0j1l-ZBSfFhtYIrJbB?usp=sharing)  [[Baidu Cloud]](https://pan.baidu.com/s/1jtEXeyRGEVvSaq0KyeT_UA)(pwd：tu9l)
   - SCA-GAN (code & model): [[Google Drive]](https://drive.google.com/file/d/1rDIDrt8eQrj2qxzPtIJzV1bQM6oLNKEJ/view?usp=sharing) [[BaiDu Cloud]](https://pan.baidu.com/s/1bZabOZUwunfmuS8hHpPHhw) (pwd: 6dxk)
+- A face $photo \mapsto sketch$  model  and a face $sketch \mapsto photo$  model pre-trained on the CUFS uses new parsing network(Bisenet)[[BaiDu Cloud]](https://pan.baidu.com/s/1n-PcEoOq9Jb5UvpvTUExTA)(pwd:tqek)
 - The pre-trained model need to be save at `./checkpoint` and named it as `netG_epoch_'+fold+'.weight`
 - Then you can test the model
 
